@@ -2,7 +2,7 @@
 # Dependencies
 node_modules/
 
-# Build artifacts
+# Build outputs
 dist/
 build/
 target/
@@ -12,22 +12,20 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.py.class
 .Python
 env/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+.ENV
+.python-version
 
 # Logs
 *.log
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# Environment variables
+.env
+.env.local
+.env.*
 
 # IDE
 .vscode/
@@ -36,11 +34,18 @@ htmlcov/
 *.swo
 *.tmp
 
-# System
+# OS
 .DS_Store
 Thumbs.db
 
-# Compressed
+# Testing
+.coverage
+htmlcov/
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# Compression
 *.zip
 *.gz
 *.tar
