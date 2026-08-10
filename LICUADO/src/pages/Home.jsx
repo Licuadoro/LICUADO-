@@ -74,10 +74,9 @@ const HTML = `
         <a href="#" class="lq-btn-scriptorium lq-btn-manuscript lq-btn-script-lg" data-lq-screen="gallery"><svg class="lq-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-4 0-9 2-12 7-2 3-3 6-3 9 3 0 6-1 9-3 5-3 7-8 7-12 0-.4-.4-1-1-1Z"/><path d="M9 15 4 20"/><path d="M13 8.5c-2 .3-4 1.6-5.3 3.6"/></svg>LICUADO Scriptorium</a>
         <div class="lq-news-preview" style="margin-top:1.5rem;opacity:0;animation:lq-fade-up 1s ease 1.8s forwards;position:relative;z-index:2;">
           <article class="lq-news-card lq-news-card-home">
-            <div class="lq-news-date">7 ago 2026</div>
-            <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
-            <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
-            <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
+            <div class="lq-news-date">10 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
+            <p class="lq-news-excerpt">Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
           </article>
           <a href="#" class="lq-btn-scriptorium lq-btn-news w-full" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Notícias</a>
         </div>
@@ -308,10 +307,19 @@ const HTML = `
         <div class="lq-news-group-head"><h3 class="lq-news-group-title">Más recientes</h3></div>
         <div class="lq-news-cards">
           <article class="lq-news-card">
-            <div class="lq-news-date">7 ago 2026</div>
-            <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
-            <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
-            <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
+            <div class="lq-news-date">10 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
+            <p class="lq-news-excerpt">Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
+          </article>
+        </div>
+      </div>
+      <div class="lq-news-group">
+        <div class="lq-news-group-head"><span class="lq-news-group-label">Kronos</span><h3 class="lq-news-group-title">Actualizaciónes de Kronos</h3></div>
+        <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">10 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
+            <p class="lq-news-excerpt">Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
           </article>
         </div>
       </div>
@@ -346,7 +354,7 @@ const HTML = `
     </div>
     <div class="lq-footer-bottom">
       <span class="lq-footer-copy">&copy; 2026 LICUADO Notícias.</span>
-      <span class="lq-footer-made">¿Realmente es verdad lo que nos cuentan?</span>
+      <button type="button" class="lq-footer-made lq-dios-link" data-lq-open-bluetooth>¿Realmente es verdad lo que nos cuentan?</button>
     </div>
   </footer>
 
@@ -572,6 +580,49 @@ const HTML = `
             <p>Obviamente esto no lo he vivido yo mismo, pero dicen que no es buena idea aceptar.</p>
             <p>Bueno, pues eso es lo que tenía que decir.</p>
             <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creéncias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y me incluyo. O al menos en mi caso desconozco la verdad sobre los secretos políticos del vaticano y el área 51 y muchos más. A veces ni siquiera estoy seguro de si estoy vivo o de si soy un jugador, siguiendo esa misma rutina diária todos los días de mi vida en el interminable e inutil instituto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lq-modal-overlay" id="lq-bluetooth-panel">
+    <div class="lq-modal lq-dios-modal">
+      <button class="lq-modal-close" type="button" data-lq-close-bluetooth aria-label="Cerrar">&#10005;</button>
+      <div class="lq-dios-dots-fixed" id="lq-bluetooth-dots-fixed"></div>
+      <button class="lq-dios-arrow lq-dios-arrow-left" type="button" data-lq-bluetooth-dir="-1" aria-label="Anterior">&#8592;</button>
+      <button class="lq-dios-arrow lq-dios-arrow-right" type="button" data-lq-bluetooth-dir="1" aria-label="Siguiente">&#8594;</button>
+      <div class="lq-dios-viewport">
+        <div class="lq-dios-pages" id="lq-bluetooth-pages">
+          <div class="lq-dios-page lq-dios-text">
+            <p>Tal vez salga un poco del tema en comparativa con lo demás que he escrito, pero...</p>
+            <p>Me gustaría hacer una advertencia.</p>
+            <p>Y es que usar audífonos de bluetooth te hace más bot.</p>
+            <p>No lo digo porque no me gusten.</p>
+            <p>No lo digo porque no me pueda comprar un par y me dé envidia. (Cosa que no es así jajaja)</p>
+            <p>Lo digo porque emiten radiación.</p>
+            <p>Y para que lo entiendas mejor, lo voy a comparar con un microondas.</p>
+            <p>El microondas calienta tu cena emitiendo radiación sobre ella.</p>
+            <p>Utilizan un aparato llamado magnetrón, para generar las microondas.</p>
+            <p>Esas microondas penetran la comida y al agitar las moléculas de la comida, esta se calienta.</p>
+            <p>El microondas está hecho de metal, que cubre todo su mecanismo y el magnetrón.</p>
+            <p>Tal como una cámara de Faraday que atrapa un alma porque no deja salir las ondas electromagnéticas.</p>
+            <p>Y esas capas de metal que rodean el magnetrón nos salvan la vida cada vez que lo usamos.</p>
+            <p>Y es que esa radiación puede causar pérdida de memoria, cataratas, y varias otras desgracias.</p>
+            <p>Bueno, los sistemas de bluetooth y de wifi usan las mismas ondas que produce el magnetrón.</p>
+            <p>Evidentemente, a menor escala, ya que de no ser así, sufrirías los mismos efectos permanentes que mencioné antes.</p>
+            <p>Ya que, los audífonos bluetooth no tienen esas capas de metal que tienen los microondas que evitan que salgan las microondas.</p>
+            <p>Ni tampoco las tienen los routers de wifi, ni un teléfono, ni muchos otros ejemplos.</p>
+            <p>Entonces ¿Por qué hago tanto énfasis en los audífonos bluetooth?</p>
+            <p>Simple.</p>
+            <p>Es lo que va más cerca de tu cerebro.</p>
+            <p>Y creerás que al ser menores las ondas electromagnéticas ya te salvas.</p>
+            <p>Pues no.</p>
+            <p>Igualmente se generan los efectos a largo plazo, y estando tan cerca de tu cerebro, podrían controlar lo que recuerdas o olvidas, o incluso lo que piensas.</p>
+            <p>Porque los pensamientos también son una señal eléctrica que corre por tus neuronas.</p>
+            <p>No es conspiración, se llama física básica.</p>
+            <p>Y si, podrías atrapar un alma en un microondas.</p>
+            <p>¿A qué sabe un alma cocida en microondas?</p>
           </div>
         </div>
       </div>
