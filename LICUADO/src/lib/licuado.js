@@ -246,7 +246,46 @@ export function initLicuado(wrap) {
   if (almaPanel) on(almaPanel, 'click', function (e) { if (e.target === almaPanel) closeAlma(); });
   almaShowPage(1);
 
-  on(document, 'keydown', function (e) { if (e.key === 'Escape') { closeModal(); closeLightbox(); closeDios(); closeAlma(); } });
+  on(document, 'keydown', function (e) { if (e.key === 'Escape') { closeModal(); closeLightbox(); closeDios(); closeAlma(); closeBluetooth(); } });
+  wrap.querySelectorAll('[data-lq-open-bluetooth]').forEach(function (el) { on(el, 'click', function (e) { e.preventDefault(); openBluetooth(); }); });
+  wrap.querySelectorAll('[data-lq-close-bluetooth]').forEach(function (el) { on(el, 'click', closeBluetooth); });
+  wrap.querySelectorAll('[data-lq-bluetooth-dir]').forEach(function (btn) {
+    on(btn, 'click', function (e) { e.stopPropagation(); bluetoothShowPage(bluetoothPageIdx + Number(btn.getAttribute('data-lq-bluetooth-dir'))); });
+  });
+  var bluetoothPanel = wrap.querySelector('#lq-bluetooth-panel');
+  var bluetoothPages = wrap.querySelector('#lq-bluetooth-pages');
+  var bluetoothPageIdx = 0;
+  var bluetoothTotal = 1;
+  function bluetoothShowPage(idx) {
+    bluetoothPageIdx = Math.max(0, Math.min(bluetoothTotal - 1, idx));
+    if (bluetoothPages) bluetoothPages.style.transform = 'translateX(-' + (bluetoothPageIdx * 100) + '%)';
+    var bLeft = bluetoothPanel ? bluetoothPanel.querySelector('.lq-dios-arrow-left') : null;
+    var bRight = bluetoothPanel ? bluetoothPanel.querySelector('.lq-dios-arrow-right') : null;
+    if (bLeft) bLeft.style.display = bluetoothPageIdx > 0 ? 'flex' : 'none';
+    if (bRight) bRight.style.display = bluetoothPageIdx < bluetoothTotal - 1 ? 'flex' : 'none';
+    var bDots = wrap.querySelector('#lq-bluetooth-dots-fixed');
+    if (bDots) {
+      bDots.innerHTML = '';
+      var dotCount = bluetoothTotal - bluetoothPageIdx;
+      for (var bd = 0; bd < dotCount; bd++) {
+        var bdot = document.createElement('span');
+        bdot.className = 'lq-dios-dot';
+        bDots.appendChild(bdot);
+      }
+    }
+  }
+  function openBluetooth() {
+    if (bluetoothPanel) {
+      bluetoothPanel.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+      if (bluetoothPages) bluetoothPages.querySelectorAll('.lq-dios-page').forEach(function (p) { p.scrollTop = 0; });
+      bluetoothShowPage(0);
+    }
+  }
+  function closeBluetooth() { if (bluetoothPanel) { bluetoothPanel.classList.remove('open'); document.body.style.overflow = ''; document.documentElement.style.overflow = ''; } }
+  if (bluetoothPanel) on(bluetoothPanel, 'click', function (e) { if (e.target === bluetoothPanel) closeBluetooth(); });
+  bluetoothShowPage(0);
   wrap.querySelectorAll('[data-lq-lumen]').forEach(function (a) {
     on(a, 'click', function (e) { e.preventDefault(); scrollToId('lq-proyectos'); setTimeout(openModal, 650); });
   });
