@@ -557,7 +557,8 @@ const HTML = `
 
 export default function Home() {
   useEffect(() => {
-    initLicuado();
+    const wrap = document.getElementById('lq-wrap');
+    if (wrap) initLicuado(wrap);
   }, []);
 
   return (
