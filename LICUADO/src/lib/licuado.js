@@ -246,7 +246,21 @@ export function initLicuado(wrap) {
   if (almaPanel) on(almaPanel, 'click', function (e) { if (e.target === almaPanel) closeAlma(); });
   almaShowPage(1);
 
-  on(document, 'keydown', function (e) { if (e.key === 'Escape') { closeModal(); closeLightbox(); closeDios(); closeAlma(); } });
+  /* ── Panel "Bluetooth / Radiación" (frase del footer de Notícias) ── */
+  var bluetoothPanel = wrap.querySelector('#lq-bluetooth-panel');
+  function openBluetooth() {
+    if (bluetoothPanel) {
+      bluetoothPanel.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+    }
+  }
+  function closeBluetooth() { if (bluetoothPanel) { bluetoothPanel.classList.remove('open'); document.body.style.overflow = ''; document.documentElement.style.overflow = ''; } }
+  wrap.querySelectorAll('[data-lq-open-bluetooth]').forEach(function (el) { on(el, 'click', function (e) { e.preventDefault(); openBluetooth(); }); });
+  wrap.querySelectorAll('[data-lq-close-bluetooth]').forEach(function (el) { on(el, 'click', closeBluetooth); });
+  if (bluetoothPanel) on(bluetoothPanel, 'click', function (e) { if (e.target === bluetoothPanel) closeBluetooth(); });
+
+  on(document, 'keydown', function (e) { if (e.key === 'Escape') { closeModal(); closeLightbox(); closeDios(); closeAlma(); closeBluetooth(); } });
   wrap.querySelectorAll('[data-lq-lumen]').forEach(function (a) {
     on(a, 'click', function (e) { e.preventDefault(); scrollToId('lq-proyectos'); setTimeout(openModal, 650); });
   });

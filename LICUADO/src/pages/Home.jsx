@@ -74,10 +74,9 @@ const HTML = `
         <a href="#" class="lq-btn-scriptorium lq-btn-manuscript lq-btn-script-lg" data-lq-screen="gallery"><svg class="lq-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-4 0-9 2-12 7-2 3-3 6-3 9 3 0 6-1 9-3 5-3 7-8 7-12 0-.4-.4-1-1-1Z"/><path d="M9 15 4 20"/><path d="M13 8.5c-2 .3-4 1.6-5.3 3.6"/></svg>LICUADO Scriptorium</a>
         <div class="lq-news-preview" style="margin-top:1.5rem;opacity:0;animation:lq-fade-up 1s ease 1.8s forwards;position:relative;z-index:2;">
           <article class="lq-news-card lq-news-card-home">
-            <div class="lq-news-date">7 ago 2026</div>
-            <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
-            <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
-            <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
+            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
           <a href="#" class="lq-btn-scriptorium lq-btn-news w-full" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Notícias</a>
         </div>
@@ -308,16 +307,35 @@ const HTML = `
         <div class="lq-news-group-head"><h3 class="lq-news-group-title">Más recientes</h3></div>
         <div class="lq-news-cards">
           <article class="lq-news-card">
-            <div class="lq-news-date">7 ago 2026</div>
-            <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
-            <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
-            <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
+            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+          </article>
+          <article class="lq-news-card">
+            <div class="lq-news-date">10 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
+            <p class="lq-news-excerpt">Bueno, esta no es la primera actualización de Kronos, pero como no le llevo registro voy a decir que es la primera. Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
+          </article>
+        </div>
+      </div>
+      <div class="lq-news-group">
+        <div class="lq-news-group-head"><span class="lq-news-group-label">Kronos</span><h3 class="lq-news-group-title">Actualizaciónes de Kronos</h3></div>
+        <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">10 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
+            <p class="lq-news-excerpt">Bueno, esta no es la primera actualización de Kronos, pero como no le llevo registro voy a decir que es la primera. Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
           </article>
         </div>
       </div>
       <div class="lq-news-group">
         <div class="lq-news-group-head"><span class="lq-news-group-label">Historial</span><h3 class="lq-news-group-title">Actualizaciónes de LICUADO</h3></div>
         <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
+            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+          </article>
           <article class="lq-news-card">
             <div class="lq-news-date">7 ago 2026</div>
             <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
@@ -346,7 +364,7 @@ const HTML = `
     </div>
     <div class="lq-footer-bottom">
       <span class="lq-footer-copy">&copy; 2026 LICUADO Notícias.</span>
-      <span class="lq-footer-made">¿Realmente es verdad lo que nos cuentan?</span>
+      <button type="button" class="lq-footer-made lq-dios-link" data-lq-open-bluetooth>¿Realmente es verdad lo que nos cuentan?</button>
     </div>
   </footer>
 
@@ -571,29 +589,4 @@ const HTML = `
             <p>Y la gente del vaticano te dirá que hagas un pacto con ellos y que trabajes para ellos, para dejarte salir.</p>
             <p>Obviamente esto no lo he vivido yo mismo, pero dicen que no es buena idea aceptar.</p>
             <p>Bueno, pues eso es lo que tenía que decir.</p>
-            <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creéncias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y me incluyo. O al menos en mi caso desconozco la verdad sobre los secretos políticos del vaticano y el área 51 y muchos más. A veces ni siquiera estoy seguro de si estoy vivo o de si soy un jugador, siguiendo esa misma rutina diária todos los días de mi vida en el interminable e inutil instituto.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-`;
-
-export default function Home() {
-  const wrapRef = useRef(null);
-
-  useEffect(() => {
-    if (!wrapRef.current) return;
-    const cleanup = initLicuado(wrapRef.current);
-    return cleanup;
-  }, []);
-
-  return (
-    <div
-      className="lq-wrap"
-      id="lq-top"
-      ref={wrapRef}
-      dangerouslySetInnerHTML={{ __html: HTML }}
-    />
-  );
-}
+            <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creéncias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y m
