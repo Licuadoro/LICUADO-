@@ -3,12 +3,13 @@ import '@/licuado.css';
 import { initLicuado } from '@/lib/licuado';
 
 const HTML = `
-  <div class="lq-global-particles" id="lq-global-particles"></div>
-  <div class="lq-code-layer" id="lq-code-layer" aria-hidden="true"></div>
-  <div class="lq-code-layer-fg" id="lq-code-layer-fg" aria-hidden="true"></div>
-  <div class="lq-crt" aria-hidden="true"></div>
+  <div class="lq-wrap" id="lq-wrap">
+    <div class="lq-global-particles" id="lq-global-particles"></div>
+    <div class="lq-code-layer" id="lq-code-layer" aria-hidden="true"></div>
+    <div class="lq-code-layer-fg" id="lq-code-layer-fg" aria-hidden="true"></div>
+    <div class="lq-crt" aria-hidden="true"></div>
 
-  <section class="lq-banner">
+    <section class="lq-banner">
     <img class="lq-banner-bg" aria-hidden="true" src="https://media.base44.com/images/public/6a68f46d82ce25dfe7a4b8fc/3e349e33f_1000056000.jpg" alt="">
     <div class="lq-glow"></div><div class="lq-scan"></div>
     <div class="lq-banner-content">
@@ -498,12 +499,60 @@ const HTML = `
         <div class="lq-dios-pages" id="lq-alma-pages">
           <div class="lq-dios-page lq-dios-text">
             <p>Lo del alma... Lo que dije antes, lo creo, a medias.</p>
-            <p>Creo que somos un alma atrapa
-</section>
+            <p>Creo que somos un alma atrapada en un cuerpo, y que este cuerpo es solo un vehículo para que el alma pueda experimentar el mundo físico. Pero no estoy completamente seguro de si el alma es algo que ya existe antes de nacer, o si se crea en el momento en que nacemos.</p>
+            <p>Lo que sí sé es que hay algo más allá de lo que podemos ver. Algo que no podemos explicar con la ciencia actual, pero que está ahí, en algún lugar, esperando ser descubierto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<footer class="lq-footer">
-  <p>&copy; 2025 LICUADO. Todos los derechos reservados.</p>
-</footer>
+  <div class="lq-modal-overlay" id="lq-bluetooth-panel">
+    <div class="lq-modal lq-dios-modal">
+      <button class="lq-modal-close" type="button" data-lq-close-bluetooth aria-label="Cerrar">&#10005;</button>
+      <div class="lq-dios-viewport">
+        <div class="lq-dios-pages">
+          <div class="lq-dios-page lq-dios-text">
+            <p>Tal vez salga un poco del tema en comparativa con lo demás que he escrito, pero...</p>
+            <p>Me gustaría hacer una advertencia.</p>
+            <p>Y es que usar audífonos de bluetooth te hace más bot.</p>
+            <p>No lo digo porque no me gusten.</p>
+            <p>No lo digo porque no me pueda comprar un par y me dé envidia. (Cosa que no es así jajaja)</p>
+            <p>Lo digo porque emiten radiación.</p>
+            <p>Y para que lo entiendas mejor, lo voy a comparar con un microondas.</p>
+            <p>El microondas calienta tu cena emitiendo radiación sobre ella.</p>
+            <p>Utilizan un aparato llamado magnetrón, para generar las microondas.</p>
+            <p>Esas microondas penetran la comida y al agitar las moléculas de la comida, esta se calienta.</p>
+            <p>El microondas está hecho de metal, que cubre todo su mecanismo y el magnetrón.</p>
+            <p>Tal como una cámara de Faraday que atrapa un alma porque no deja salir las ondas electromagnéticas.</p>
+            <p>Y esas capas de metal que rodean el magnetrón nos salvan la vida cada vez que lo usamos.</p>
+            <p>Y es que esa radiación puede causar pérdida de memoria, cataratas, y varias otras desgracias.</p>
+            <p>Bueno, los sistemas de bluetooth y de wifi usan las mismas ondas que produce el magnetrón.</p>
+            <p>Evidentemente, a menor escala, ya que de no ser así, sufrirías los mismos efectos permanentes que mencioné antes.</p>
+            <p>Ya que, los audífonos bluetooth no tienen esas capas de metal que tienen los microondas que evitan que salgan las microondas.</p>
+            <p>Ni tampoco las tienen los routers de wifi, ni un teléfono, ni muchos otros ejemplos.</p>
+            <p>Entonces ¿Por qué hago tanto énfasis en los audífonos bluetooth?</p>
+            <p>Simple.</p>
+            <p>Es lo que va más cerca de tu cerebro.</p>
+            <p>Y creerás que al ser menores las ondas electromagnéticas ya te salvas.</p>
+            <p>Pues no.</p>
+            <p>Igualmente se generan los efectos a largo plazo, y estando tan cerca de tu cerebro, podrían controlar lo que recuerdas o olvidas, o incluso lo que piensas.</p>
+            <p>Porque los pensamientos también son una señal eléctrica que corre por tus neuronas.</p>
+            <p>No es conspiración, se llama física básica.</p>
+            <p>Y si, podrías atrapar un alma en un microondas.</p>
+            <p>¿A qué sabe un alma cocida en microondas?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lq-lightbox-overlay" id="lq-lightbox">
+    <button class="lq-modal-close lq-lightbox-close" type="button" id="lq-lightbox-close" aria-label="Cerrar">&#10005;</button>
+    <img id="lq-lightbox-img" src="" alt="">
+  </div>
+  </section>
+  </div>
 `;
 
 export default function Home() {
