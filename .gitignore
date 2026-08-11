@@ -1,49 +1,73 @@
-```
+```gitignore
 # Dependencies
 node_modules/
-
-# Build outputs
+venv/
+.venv/
+__pycache__/
+*.egg-info/
 dist/
 build/
 target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
-# Python
-__pycache__/
+# Compiled files
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.env
-.env.*
-.venv.bak/
-env.bak/
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Logs
+# Logs and temp files
 *.log
-
-# Editor
-.vscode/
-.idea/
+*.tmp
 *.swp
 *.swo
-*~
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 
-# Testing
-.coverage
+# Coverage
 coverage/
 htmlcov/
-.pytest_cache/
-.mypy_cache/
+.coverage
 
-# Environment specific
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
