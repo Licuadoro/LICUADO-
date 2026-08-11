@@ -498,95 +498,20 @@ const HTML = `
         <div class="lq-dios-pages" id="lq-alma-pages">
           <div class="lq-dios-page lq-dios-text">
             <p>Lo del alma... Lo que dije antes, lo creo, a medias.</p>
-            <p>Creo que somos un alma atrapada en un cuerpo.</p>
-            <p>Creo en los viajes astrales.</p>
-            <p>Peeero, no creo que para hacer realidad eso que llamamos telekiniesis, necesitamos salir del cuerpo.</p>
-            <p>Resulta que además del alma, tenemos el aura.</p>
-            <p>De verdad.</p>
-            <p>Para entenderlo, hay que visualizarlo como una burbuja alrededor de nuestra alma. Un campo electromagnético.</p>
-            <p>Podemos mover cosas que estén dentro del aura, si recordamos cómo.</p>
-            <p>El aura no se queda alrededor de nuestro cuerpo, si no, alrededor de nuestra alma.</p>
-            <p>Así que si salimos del cuerpo también podemos mover cosas a nuestro alrededor.</p>
-            <p>Quienes poseen un alma, te dirán que es mentira.</p>
-            <p>Quienes no poseen un alma, te dirán que es cosa de hippies.</p>
-            <p>Quienes no poseen alma, no pueden hacerlo.</p>
-            <p>¿Será que realmente es mentira?</p>
-            <p>Puede ser.</p>
-            <p>Yo no poseo la verdad absoluta, es posile que todo en lo que creo sea mentira.</p>
-            <p>Es posible que nada de las cosas en las que creo sean verdad.</p>
-            <p>Pero, ¿Acaso eso es malo?</p>
-            <p>No.</p>
-            <p>Cómo humanos, vivimos persiguiendo la verdad, como un perro que persigue el palo.</p>
-            <p>Cuando el perro consigue atrapar el palo, se lo lleva a quien lo lanzó y el juego termina.</p>
-            <p>Cuando creemos conocer la verdad sobre algo, se lo contamos a quienes podamos, y luego somos decapitados.</p>
-            <p>Desaparecemos misteriosamente, como Jacobo Grinberg.</p>
-            <p>¿No es extraño?</p>
-            <p>¿Coincidencia?</p>
-            <p>¿Existen las coincidencias?</p>
-            <p>No lo sé, por suerte no poseo la verdad.</p>
-            <p>Pero, ¿Cómo sé que no lo sé?</p>
-            <p>Tal vez lo se sin saber que lo se, y entonces pienso que no lo sé.</p>
-            <p>Y si hipotéticamente conseguimos la verdad absoluta sobre todo... El juego termina.</p>
-            <p>Igualmente.</p>
-            <p>Si lo sabes todo, y sabes que lo sabes, cosa que se incluye en saberlo todo, ya no hay sorpresas.</p>
-            <p>Y si ya no hay asombro, ¿Qué sentido tiene?</p>
-            <p>Se pierde toda emoción. Y lo único que aún te podrá hacer sentir vivo es crear.</p>
-            <p>Y lo único que nos salva...</p>
-            <p>...Es...</p>
-            <p>...Ser una deidad.</p>
-            <p>Y me alegra poder decir...</p>
-            <p>...Que solo tenemos certeza de lo que creamos.</p>
-            <p>¿Verdad?</p>
-          </div>
-          <div class="lq-dios-page lq-dios-text">
-            <p>Ok, cómo lo prometí, voy a havlar de mi percepción del alma.</p>
-            <p>Pues, voy a empezar por lo primero. Tu no eres tu cuerpo, eres tu alma. A menos claro, que seas un NPC y no tengas.</p>
-            <p>Es decir, tu eres el alma, y tu estás atrapado/a en tu cuerpo.</p>
-            <p>Y pensarás que el cuerpo te permite interactuar con el plano físico y con las otras almas atrapadas en un cuerpo...</p>
-            <p>Pero yo ceo al cuerpo méramente como un parásito del alma.</p>
-            <p>Si, piénsalo, el cuerpo no te trae ninguna ventaja.</p>
-            <p>El cuerpo pemite que te juzguen por el mismo, permite que te enfermes y que entren muchas adicciones...</p>
-            <p>...El cuerpo te hace dependiente del oxígeno, en el caso de los animales terrícolas, por ejemplo.</p>
-            <p>Los ojos, que creemos que nos permiten ver, no son más que un filtro, ya que si no viviéramos atados a ellos, también podríamos ver cosas etéreas, además de lo que ya vemos.</p>
-            <p>Y podría decir muchas más desgracias a las que nos condena el cuerpo. Como el hecho de poder sentir dolor.</p>
-            <p>Y dirás que sentir dolor es un mecanismo necesario, pero no lo necesitas si no tienes cuerpo.</p>
-            <p>Bueno, al fin y al cabo no todo es malo, así como sentimos dolor, también placer.</p>
-            <p>Eso me lleva a preguntarme qué o quién nos atrapó masivamente dentro de este parásito y prisión que es el cuerpo.</p>
-            <p>Porque no es normal que tantos padezcamos de él.</p>
-            <p>Somos literalmente esclavos de el cuerpo.</p>
-            <p>Y cuando abandonemos uno, probablemente nos traslademos a otro.</p>
-            <p>O tal vez, quienes somos víctimas del parásito del cuerpo no somos una mayoría, porque el mismo cuerpo es un filtro que impide que veamos a los libres que no lo padecen.</p>
-            <p>Pero aún así, somos muchos.</p>
-            <p>Sin el cuerpo somos eternos. Bueno, no. Siempre somos eternos, lo que puede morir es el cuerpo.</p>
-            <p>¿Sabes qué más es eterno? Los dioses.</p>
-            <p>Y solo quienes somos un alma somos divinos.</p>
-            <p>Peeero, volviendo al tema del alma, nosotros vivimos esclavos del cuerpo como la prisión que es.</p>
-            <p>Se dice que hay gente que ha conseguido salir de el y escapar sin que muera el cuerpo.</p>
-            <p>Y quienes lo hacen, pueden mover cosas, y en general, comunicarse con el plano físico.</p>
-            <p>Quienes lo vean como ficción le llamarán telequinesis y telepatía.</p>
-            <p>Pero yo le llamo alminar.</p>
-            <p>Es una palabra que inventé yo mismo.</p>
-            <p>Pero tiene raíces sentidas.</p>
-            <p>Viene de la palabra caminar, que como es bien sabido, en al gunos idiomas de lenguas romance, pierna se dice cama.</p>
-            <p>Y de ahí viene caminar, que es la verbalización del acto de usar las piernas para moverse.</p>
-            <p>Cama - Caminar.</p>
-            <p>Bueno, y de ahí viene alminar, que es una verbalización de la acción de moverse e interactuar con lo demás como alma.</p>
-            <p>Bueno, al salir y alminar, tu cuerpo queda dormido, porque no tiene su alma, y no tiene una programación que le haga seguir una rutina como los bots, precisamente porque suele tener alma.</p>
-            <p>Entonces, deberías saber como dividirte, y hablo de ti como alma.</p>
-            <p>Pero eso puede ser...</p>
-            <p>...¿Peligroso?</p>
-            <p>Bueno, debo aclarar que esta teoría en general sobre el alma, la inventé yo y me pareció bastante realista y creíble.</p>
-            <p>Tiene bastantes cosas de las que puedes aprender.</p>
-            <p>Sin embargo, yo mismo no la creo, pero no quita que podría ser verdad.</p>
-            <p>Sin embargo, debo aclarar que si hay gente que sale de su cuerpo como alma, y eso se llama realmente "Viaje Astral"</p>
-            <p>También quiero hablar del viaje astral, que te permite salir de tu cuerpo como alma, y viajar por ahí.</p>
-            <p>Yo no lo he probado, pero si algún día tu lo intentas, no vayas lejos de tu cuerpo, al menos hasta la décima vez.</p>
-            <p>Y, NO entres a las cámaras prohibidas del vaticano ni al área 51.</p>
-            <p>Parece una idea astuta, y poder enterarte de cosas que no deberías, pero ellos están preparados para eso, prueba también de que es real.</p>
-            <p>Esos sitios tienen cámaras de Faraday.</p>
-            <p>Las cámaras de Faraday son similares a jaulas, que impiden que pasen campos electromagnéticos, es decir, el alma.</p>
-            <p>Desconozco si también lo hacen en el área 51, pero al menos en el vaticano, las dejan abiertas para que entres, y después no te permiten salir.</p>
-            <p>Y la gente del vaticano te dirá que hagas un pacto con ellos y que trabajes para ellos, para dejarte salir.</p>
-            <p>Obviamente esto no lo he vivido yo mismo, pero dicen que no es buena idea aceptar.</p>
-            <p>Bueno, pues eso es lo que tenía que decir.</p>
-            <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creencias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y mucho menos yo.</p>
+            <p>Creo que somos un alma atrapa
+</section>
+
+<footer class="lq-footer">
+  <p>&copy; 2025 LICUADO. Todos los derechos reservados.</p>
+</footer>
+`;
+
+export default function Home() {
+  useEffect(() => {
+    initLicuado();
+  }, []);
+
+  return (
+    <div dangerouslySetInnerHTML={{ __html: HTML }} />
+  );
+}
