@@ -344,6 +344,7 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,.lq-wrap::-webkit-scrollbar{disp
 .lq-news-footer .lq-footer-nav a:hover{color:rgba(200,24,12,.95)}
 .lq-news-footer .lq-footer-tagline{color:rgba(245,245,240,.62)}
 .lq-news-footer .lq-footer-copy,.lq-news-footer .lq-footer-made{color:rgba(245,245,240,.42)}
+.lq-news-footer .lq-dios-link:hover{color:#ff8c7a}
 .lq-scriptorium-footer .lq-footer-shimmer{background:linear-gradient(180deg,rgba(3,252,111,.06),transparent)}
 .lq-gallery-footer .lq-footer-shimmer{background:linear-gradient(180deg,rgba(215,170,61,.06),transparent)}
 .lq-news-footer .lq-footer-shimmer{background:linear-gradient(180deg,rgba(200,24,12,.06),transparent)}
