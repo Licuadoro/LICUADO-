@@ -311,6 +311,11 @@ const HTML = `
             <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
             <p class="lq-news-excerpt">Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
           </article>
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
+            <p class="lq-news-excerpt">En esta actualización añadí nuevas notícias de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+          </article>
         </div>
       </div>
       <div class="lq-news-group">
@@ -327,8 +332,13 @@ const HTML = `
         <div class="lq-news-group-head"><span class="lq-news-group-label">Historial</span><h3 class="lq-news-group-title">Actualizaciónes de LICUADO</h3></div>
         <div class="lq-news-cards">
           <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
+            <p class="lq-news-excerpt">En esta actualización añadí nuevas notícias de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+          </article>
+          <article class="lq-news-card">
             <div class="lq-news-date">7 ago 2026</div>
-            <h3 class="lq-news-title">Actualización 1.00: Deceptio?</h3>
+            <h3 class="lq-news-title">Actualización LICUADO 1.00: Deceptio?</h3>
             <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
             <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
           </article>

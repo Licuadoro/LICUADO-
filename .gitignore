@@ -1,11 +1,33 @@
-```
+```gitignore
 # Dependencies
 node_modules/
-
-# Build artifacts
+venv/
+.venv/
+__pycache__/
+*.egg-info/
 dist/
 build/
-*.js.map
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -16,40 +38,14 @@ build/
 .vscode/
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Logs
-*.log
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-
-# Distribution / packaging
-*.egg-info/
-.Python
-
-# IDE specific
-*.swp
-*.swo
 
 # Compressed files
 *.zip
