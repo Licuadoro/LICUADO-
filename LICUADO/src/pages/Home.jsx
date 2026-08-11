@@ -589,4 +589,4 @@ const HTML = `
             <p>Y la gente del vaticano te dirá que hagas un pacto con ellos y que trabajes para ellos, para dejarte salir.</p>
             <p>Obviamente esto no lo he vivido yo mismo, pero dicen que no es buena idea aceptar.</p>
             <p>Bueno, pues eso es lo que tenía que decir.</p>
-            <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creéncias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y m
+            <p>Este es un tema delicado, y quien me crea, es libre de hacerlo o de no hacerlo, solo tú decides si es real. No dejes que nadie te imponga sus creencias. Yo solo lo comunico, pero nadie está seguro de la verdad sobre nuestro origen o sobre lo que somos, y mucho menos yo.</p>
