@@ -311,12 +311,12 @@ export function initLicuado(wrap) {
         return;
       }
       if (wrap.classList.contains('lq-show-news')) {
-        var sparkCount = Math.round(34 + Math.min(26, h / 28));
-        for (var s = 0; s < sparkCount; s++) {
-          var spark = document.createElement('i'); spark.className = 'lq-spark';
-          var top = crand(0, h), left = crand(2, 98), dur = crand(3.2, 7.2), delay = crand(-7, 1), ang = crand(-64, -8), op = crand(.3, .6);
-          spark.style.cssText = 'left:' + left + '%;top:' + top + 'px;--dur:' + dur.toFixed(2) + 's;--delay:' + delay.toFixed(2) + 's;--ang:' + ang.toFixed(1) + 'deg;--op:' + op.toFixed(2) + ';--rise:-' + crand(70, 170).toFixed(0) + 'px;--drift:' + crand(-24, 24).toFixed(0) + 'px';
-          layer.appendChild(spark);
+        var dustCount = Math.round(48 + Math.min(32, h / 24));
+        for (var d = 0; d < dustCount; d++) {
+          var dust = document.createElement('i'); dust.className = 'lq-dust';
+          var top = crand(0, h), left = crand(2, 98), dur = crand(4.5, 9.5), delay = crand(-6, 1), op = crand(.35, .7);
+          dust.style.cssText = 'left:' + left + '%;top:' + top + 'px;--dur:' + dur.toFixed(2) + 's;--delay:' + delay.toFixed(2) + 's;--op:' + op.toFixed(2) + ';--rise:-' + crand(25, 55).toFixed(0) + 'px;--drift:' + crand(-12, 12).toFixed(0) + 'px';
+          layer.appendChild(dust);
         }
         return;
       }
