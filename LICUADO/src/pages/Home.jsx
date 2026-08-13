@@ -298,6 +298,7 @@ const HTML = `
   </footer>
 
   <section class="lq-news" id="lq-news">
+    <div class="lq-news-particles" id="lq-news-particles"></div>
     <button class="lq-btn lq-scriptorium-back" type="button" data-lq-screen="home">&#8592; Volver</button>
     <div class="lq-glow"></div>
     <div class="lq-scan"></div>
