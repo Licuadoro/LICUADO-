@@ -351,9 +351,9 @@ export function initLicuado(wrap) {
       var depth = (i + 1) / bands.length;
       var intensity = Math.min(1, depth * .65 + progress * .55);
       for (var n = 0; n < b.s; n++) {
-        var el = document.createElement('i'); el.className = 'lq-spark';
-        var top = crand(b.from * h, b.to * h), left = crand(2, 98), dur = crand(3.2, 7.2 - intensity * 1.6), delay = crand(-7, 1), ang = crand(-64, -8), op = crand(.16 + intensity * .12, .34 + intensity * .28);
-        el.style.cssText = 'left:' + left + '%;top:' + top + 'px;--dur:' + dur.toFixed(2) + 's;--delay:' + delay.toFixed(2) + 's;--ang:' + ang.toFixed(1) + 'deg;--op:' + op.toFixed(2) + ';--rise:-' + crand(70, 170 + intensity * 85).toFixed(0) + 'px;--drift:' + crand(-24, 24).toFixed(0) + 'px';
+        var el = document.createElement('i'); el.className = 'lq-dust';
+        var top = crand(b.from * h, b.to * h), left = crand(2, 98), dur = crand(3.2, 7.2 - intensity * 1.6), delay = crand(-7, 1), op = crand(.16 + intensity * .12, .34 + intensity * .28);
+        el.style.cssText = 'left:' + left + '%;top:' + top + 'px;--dur:' + dur.toFixed(2) + 's;--delay:' + delay.toFixed(2) + 's;--op:' + op.toFixed(2) + ';--drift:' + crand(-24, 24).toFixed(0) + 'px';
         layer.appendChild(el);
       }
       for (var m = 0; m < b.d; m++) {
