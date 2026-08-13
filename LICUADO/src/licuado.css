@@ -358,7 +358,7 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,.lq-wrap::-webkit-scrollbar{disp
 .lq-news .lq-line.r{background:linear-gradient(90deg,rgba(200,24,12,.55),transparent)}
 .lq-news .lq-dot{background:#c8180c;animation:lq-blink-red 2s ease infinite}
 @keyframes lq-blink-red{0%,100%{opacity:1;box-shadow:0 0 6px #c8180c}50%{opacity:.3;box-shadow:none}}
-.lq-news-dust{position:absolute;border-radius:50%;background:radial-gradient(circle at 35% 32%,rgba(255,100,80,.9),rgba(200,24,12,.85) 45%,rgba(160,20,8,.6));opacity:0;box-shadow:0 0 8px rgba(200,24,12,.5);animation:lq-news-dust-float var(--dur) ease-in-out var(--delay) infinite}
+.lq-news-dust{position:absolute;border-radius:50%;background:radial-gradient(circle at 35% 32%,rgba(100,255,140,.9),rgba(0,255,68,.85) 45%,rgba(0,180,48,.6));opacity:0;box-shadow:0 0 8px rgba(0,255,68,.5);animation:lq-news-dust-float var(--dur) ease-in-out var(--delay) infinite}
 @keyframes lq-news-dust-float{0%{opacity:0;transform:translateY(0) translateX(0) scale(.6)}15%{opacity:var(--op)}50%{opacity:var(--op)}85%{opacity:calc(var(--op)*.6)}100%{opacity:0;transform:translateY(calc(var(--drift,0) * -0.6)) translateX(var(--drift)) scale(1)}}
 
 /* ── LÍNEAS DE CÓDIGO FLOTANTES (fondo) ── */
