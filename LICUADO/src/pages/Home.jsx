@@ -77,7 +77,7 @@ const HTML = `
           <article class="lq-news-card lq-news-card-home">
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
-            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+            <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
           <a href="#" class="lq-btn-scriptorium lq-btn-news w-full" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Notícias</a>
         </div>
@@ -310,7 +310,7 @@ const HTML = `
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
-            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+            <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
           <article class="lq-news-card">
             <div class="lq-news-date">10 Ago 2026</div>
@@ -341,7 +341,7 @@ const HTML = `
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
-            <p class="lq-news-excerpt">En esta actualización añadí una nova notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
+            <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
           <article class="lq-news-card">
             <div class="lq-news-date">7 ago 2026</div>
