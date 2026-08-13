@@ -311,12 +311,17 @@ export function initLicuado(wrap) {
         return;
       }
       if (wrap.classList.contains('lq-show-news')) {
-        var dustCount = Math.round(42 + Math.min(34, h / 24));
-        for (var dc = 0; dc < dustCount; dc++) {
-          var dust = document.createElement('i'); dust.className = 'lq-dust';
-          var size = Math.round(crand(2, 6));
-          dust.style.cssText = 'width:' + size + 'px;height:' + size + 'px;left:' + crand(2, 98).toFixed(2) + '%;top:' + crand(4, h - 10).toFixed(0) + 'px;--dur:' + crand(8, 18).toFixed(2) + 's;--delay:' + crand(-14, 2).toFixed(2) + 's;--op:' + crand(.35, .75).toFixed(2) + ';--drift:' + crand(-20, 20).toFixed(0) + 'px';
-          layer.appendChild(dust);
+        var newsParticles = wrap.querySelector('#lq-news-particles');
+        if (newsParticles) {
+          newsParticles.innerHTML = '';
+          var newsH = newsParticles.offsetHeight || h;
+          var dustCount = Math.round(42 + Math.min(34, newsH / 24));
+          for (var dc = 0; dc < dustCount; dc++) {
+            var dust = document.createElement('i'); dust.className = 'lq-news-dust';
+            var size = Math.round(crand(2, 6));
+            dust.style.cssText = 'width:' + size + 'px;height:' + size + 'px;left:' + crand(2, 98).toFixed(2) + '%;top:' + crand(4, newsH - 10).toFixed(0) + 'px;--dur:' + crand(8, 18).toFixed(2) + 's;--delay:' + crand(-14, 2).toFixed(2) + 's;--op:' + crand(.35, .75).toFixed(2) + ';--drift:' + crand(-20, 20).toFixed(0) + 'px';
+            newsParticles.appendChild(dust);
+          }
         }
         return;
       }

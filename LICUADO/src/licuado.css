@@ -317,6 +317,7 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,.lq-wrap::-webkit-scrollbar{disp
 
 /* ── NOTÍCIAS (rojo sangre) ── */
 .lq-news{display:none;min-height:100vh;width:100vw;max-width:100vw;margin-left:0;margin-right:0;padding:7rem max(4rem,8vw) 4.5rem;position:relative;overflow:hidden;box-sizing:border-box;background:linear-gradient(180deg,rgba(40,6,4,.82),rgba(18,4,3,.92) 42%,#060606),radial-gradient(circle at 50% 18%,rgba(200,24,12,.2),transparent 32%),radial-gradient(circle at 50% 45%,rgba(200,24,12,.14),transparent 42%),#060606}
+.lq-news-particles{position:absolute;top:0;left:0;right:0;height:100%;z-index:1;pointer-events:none;overflow:hidden}
 .lq-news:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 28%,rgba(200,24,12,.1),transparent 35%),radial-gradient(ellipse at 82% 35%,rgba(160,20,8,.07),transparent 34%);pointer-events:none}
 .lq-news:after{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 50% 50%,transparent 42%,rgba(120,12,6,.06) 78%,rgba(80,8,4,.12))}
 .lq-news .lq-scan{display:none}
@@ -357,8 +358,8 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,.lq-wrap::-webkit-scrollbar{disp
 .lq-news .lq-line.r{background:linear-gradient(90deg,rgba(200,24,12,.55),transparent)}
 .lq-news .lq-dot{background:#c8180c;animation:lq-blink-red 2s ease infinite}
 @keyframes lq-blink-red{0%,100%{opacity:1;box-shadow:0 0 6px #c8180c}50%{opacity:.3;box-shadow:none}}
-.lq-ember{position:absolute;border-radius:50%;background:radial-gradient(circle at 35% 32%,rgba(255,210,180,.95),rgba(220,40,20,.8) 45%,rgba(160,20,8,.4));box-shadow:0 0 8px rgba(220,40,20,.7),0 0 16px rgba(200,24,12,.4);opacity:0;z-index:21;animation:lq-ember-fall var(--dur) linear var(--delay) infinite;will-change:transform,opacity}
-@keyframes lq-ember-fall{0%{opacity:0;transform:translateY(-20px) translateX(0) scale(.6)}12%{opacity:var(--op)}88%{opacity:var(--op)}100%{opacity:0;transform:translateY(var(--fall,80px)) translateX(var(--drift,20px)) scale(.4)}}
+.lq-news-dust{position:absolute;border-radius:50%;background:radial-gradient(circle at 35% 32%,rgba(255,100,80,.9),rgba(200,24,12,.85) 45%,rgba(160,20,8,.6));opacity:0;box-shadow:0 0 8px rgba(200,24,12,.5);animation:lq-news-dust-float var(--dur) ease-in-out var(--delay) infinite}
+@keyframes lq-news-dust-float{0%{opacity:0;transform:translateY(0) translateX(0) scale(.6)}15%{opacity:var(--op)}50%{opacity:var(--op)}85%{opacity:calc(var(--op)*.6)}100%{opacity:0;transform:translateY(calc(var(--drift,0) * -0.6)) translateX(var(--drift)) scale(1)}}
 
 /* ── LÍNEAS DE CÓDIGO FLOTANTES (fondo) ── */
 .lq-code-layer{position:absolute;top:0;left:0;right:0;height:100%;z-index:0;pointer-events:none;overflow:hidden}
