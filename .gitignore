@@ -1,1 +1,93 @@
-Nothing should be ignored based on the provided file changes. The only modified file is a CSS source file (`LICUADO/src/licuado.css`), which is a legitimate source code file that should not be ignored. Since there are no build artifacts, dependencies, temporary files, or other ignorable items in the changes, no .gitignore rules are needed.
+```
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+.tox/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.a
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.a
+*.obj
+*.lib
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+```
