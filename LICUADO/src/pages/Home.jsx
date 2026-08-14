@@ -312,7 +312,6 @@ const HTML = `
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
             <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
-            <p class="lq-news-excerpt">En esta actualización también añadí una corrección de partículas, ahora en la página de notícias, las partículas son de polvo rojas</p>
           </article>
           <article class="lq-news-card">
             <div class="lq-news-date">10 Ago 2026</div>
