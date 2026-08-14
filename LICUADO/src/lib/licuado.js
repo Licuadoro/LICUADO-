@@ -288,7 +288,7 @@ export function initLicuado(wrap) {
     if (!layer) return;
     layer.innerHTML = '';
     var viewportH = window.innerHeight || 800;
-    var isAltScreen = wrap.classList.contains('lq-show-scriptorium') || wrap.classList.contains('lq-show-gallery');
+    var isAltScreen = wrap.classList.contains('lq-show-scriptorium') || wrap.classList.contains('lq-show-gallery') || wrap.classList.contains('lq-show-news');
     var visibleFooter = wrap.classList.contains('lq-show-scriptorium') ? wrap.querySelector('.lq-scriptorium-footer')
       : wrap.classList.contains('lq-show-gallery') ? wrap.querySelector('.lq-gallery-footer')
       : wrap.classList.contains('lq-show-news') ? wrap.querySelector('.lq-news-footer')
