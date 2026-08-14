@@ -5,44 +5,68 @@ node_modules/
 # Build artifacts
 dist/
 build/
-target/
-
-# Logs
-*.log
+*.min.js
+*.min.css
+*.bundle.js
 
 # Environment variables
 .env
 .env.local
 *.env.*
 
-# IDE files
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.tmp
 
-# Python specific
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-.coverage
+
+# Coverage reports
 coverage/
 htmlcov/
+.coverage
 
-# Compiled files
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Testing
+.pytest_cache/
+.mypy_cache/
+.nyc_output/
+coverage/
 
-# Compression files
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local configuration
+*.local
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -61,18 +85,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.nyc_output/
-coverage/
-
-# Distribution / packaging
-*.egg-info/
-.tox/
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
