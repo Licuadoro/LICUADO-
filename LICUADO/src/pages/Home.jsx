@@ -79,7 +79,7 @@ const HTML = `
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
             <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
-          <a href="#" class="lq-btn-scriptorium lq-btn-news w-full" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Notícias</a>
+          <a href="#" class="lq-btn-scriptorium lq-btn-news w-full" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Noticias</a>
         </div>
       </div>
       <div>
@@ -133,7 +133,7 @@ const HTML = `
           <li><a href="https://caribe-studios-portal-883042bb.base44.app/" target="_blank" rel="noopener">Caribe Studios &#8599;</a></li>
           <li style="margin-top:.6rem"><a href="#" class="lq-btn-scriptorium lq-btn-signal" data-lq-screen="scriptorium"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 20v-6"/><path d="M8.5 15.5a5 5 0 0 1 0-7"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M5.5 18.5a9 9 0 0 1 0-13"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>Envía una señal</a></li>
           <li><a href="#" class="lq-btn-scriptorium lq-btn-manuscript" data-lq-screen="gallery"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-4 0-9 2-12 7-2 3-3 6-3 9 3 0 6-1 9-3 5-3 7-8 7-12 0-.4-.4-1-1-1Z"/><path d="M9 15 4 20"/><path d="M13 8.5c-2 .3-4 1.6-5.3 3.6"/></svg>LICUADO Scriptorium</a></li>
-          <li><a href="#" class="lq-btn-scriptorium lq-btn-news" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Notícias</a></li>
+          <li><a href="#" class="lq-btn-scriptorium lq-btn-news" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Noticias</a></li>
           <li><a class="lq-btn-scriptorium lq-btn-kronos" href="https://kronostl.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><g class="lq-kronos-hand"><path d="M12 12 12 7"/><path d="M12 12 15.3 13.6"/></g></svg>Kronos</a></li>
         </ul>
       </div>
@@ -302,7 +302,7 @@ const HTML = `
     <button class="lq-btn lq-scriptorium-back" type="button" data-lq-screen="home">&#8592; Volver</button>
     <div class="lq-glow"></div>
     <div class="lq-scan"></div>
-    <h2 class="lq-proy-title" style="position:relative;z-index:2">Notícias</h2>
+    <h2 class="lq-proy-title" style="position:relative;z-index:2">Noticias</h2>
     <div class="lq-divider"><div class="lq-line"></div><div class="lq-dot"></div><div class="lq-line r"></div></div>
     <div class="lq-news-grid">
       <div class="lq-news-group">
@@ -372,7 +372,7 @@ const HTML = `
       </div>
     </div>
     <div class="lq-footer-bottom">
-      <span class="lq-footer-copy">&copy; 2026 LICUADO Notícias.</span>
+      <span class="lq-footer-copy">&copy; 2026 LICUADO Noticias.</span>
       <button type="button" class="lq-footer-made lq-dios-link" data-lq-open-bluetooth>¿Realmente es verdad lo que nos cuentan?</button>
     </div>
   </footer>
