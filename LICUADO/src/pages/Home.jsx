@@ -333,6 +333,8 @@ const HTML = `
             <div class="lq-news-date">10 Ago 2026</div>
             <h3 class="lq-news-title">Actualización Kronos 1.00: Εικόνισμα</h3>
             <p class="lq-news-excerpt">Bueno, esta no es la primera actualización de Kronos, pero como no le llevo registro voy a decir que es la primera. Básicamente ahora la página tiene ícono en la pestaña del navegador.</p>
+            <a class="lq-btn-scriptorium lq-btn-kronos" href="https://kronostl.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><g class="lq-kronos-hand"><path d="M12 12 12 7"/><path d="M12 12 15.3 13.6"/></g></svg>Kronos</a>
+            <a class="lq-btn-scriptorium lq-btn-kronos" href="https://kronostl.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><g class="lq-kronos-hand"><path d="M12 12 12 7"/><path d="M12 12 15.3 13.6"/></g></svg>Kronos</a>
           </article>
         </div>
       </div>
