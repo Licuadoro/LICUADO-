@@ -246,7 +246,7 @@ export function initLicuado(wrap) {
   if (almaPanel) on(almaPanel, 'click', function (e) { if (e.target === almaPanel) closeAlma(); });
   almaShowPage(1);
 
-  /* ── Panel "Bluetooth / Radiación" (frase del footer de Notícias) ── */
+  /* ── Panel "Bluetooth / Radiación" (frase del footer de Noticias) ── */
   var bluetoothPanel = wrap.querySelector('#lq-bluetooth-panel');
   function openBluetooth() {
     if (bluetoothPanel) {
