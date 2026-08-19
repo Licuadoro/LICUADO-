@@ -327,6 +327,16 @@ const HTML = `
         </div>
       </div>
       <div class="lq-news-group">
+        <div class="lq-news-group-head"><h3 class="lq-news-group-title">Noticias Generales</h3></div>
+        <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">18 Ago 2026</div>
+            <h3 class="lq-news-title">Teia</h3>
+            <p class="lq-news-excerpt">¡Ya publicada y funcionando! Ya publiqué Teia, una herramienta donde podrás subir los archivos de tu proyecto y ver una vista previa. En mi caso, es bastante útil para no tener que publicar cada vez que hago cambios en mis webs sin saber si va a ser la versión definitiva. Y, sobra decir que es totalmente gratis, al igual que Kronos, y mis próximas herramientas.</p>
+          </article>
+        </div>
+      </div>
+      <div class="lq-news-group">
         <div class="lq-news-group-head"><span class="lq-news-group-label">Kronos</span><h3 class="lq-news-group-title">Actualizaciónes de Kronos</h3></div>
         <div class="lq-news-cards">
           <article class="lq-news-card">

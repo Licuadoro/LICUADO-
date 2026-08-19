@@ -1,15 +1,13 @@
 ```
 # Dependencies
 node_modules/
-.julia/
-zig-cache/
 
-# Build outputs
+# Build artifacts
 dist/
 build/
 target/
 
-# Python specific
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -18,47 +16,34 @@ __pycache__/
 env/
 venv/
 .venv/
-.conda/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+.ENV
+.ENV.local
 
 # Logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Environment variables
+.env
+.env.local
+.env.*
 
 # IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-
-# Environment variables
-.env
-.env.local
-.env.*
-!.env.example
-
-# Temporary files
 *.tmp
-*.temp
-*.bak
 
-# Compressed files
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Compression
 *.zip
 *.gz
 *.tar
