@@ -135,6 +135,7 @@ const HTML = `
           <li><a href="#" class="lq-btn-scriptorium lq-btn-manuscript" data-lq-screen="gallery"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-4 0-9 2-12 7-2 3-3 6-3 9 3 0 6-1 9-3 5-3 7-8 7-12 0-.4-.4-1-1-1Z"/><path d="M9 15 4 20"/><path d="M13 8.5c-2 .3-4 1.6-5.3 3.6"/></svg>LICUADO Scriptorium</a></li>
           <li><a href="#" class="lq-btn-scriptorium lq-btn-news" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Noticias</a></li>
           <li><a class="lq-btn-scriptorium lq-btn-kronos" href="https://kronostl.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><g class="lq-kronos-hand"><path d="M12 12 12 7"/><path d="M12 12 15.3 13.6"/></g></svg>Kronos</a></li>
+          <li><a class="lq-btn-scriptorium lq-btn-teia" href="https://teia-licuado.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>Teia</a></li>
         </ul>
       </div>
     </div>
@@ -310,6 +311,14 @@ const HTML = `
         <div class="lq-news-cards">
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Religio dominans</h3>
+            <p class="lq-news-excerpt">¡En esta actualización añadí varias cosas! Tales como: 
+            <br/>-Una notícia revelando que Teia ya está publicado y funcionando.
+            <br/>-Dos accesos directos a Teia.
+            <br/>-Y como no puede faltar, más textos conspiranóicos ocultos jajaja.</p>
+          </article>
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
             <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
@@ -351,6 +360,14 @@ const HTML = `
       <div class="lq-news-group">
         <div class="lq-news-group-head"><span class="lq-news-group-label">Historial</span><h3 class="lq-news-group-title">Actualizaciónes de LICUADO</h3></div>
         <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Religio dominans</h3>
+            <p class="lq-news-excerpt">¡En esta actualización añadí varias cosas! Tales como: 
+            <br/>-Una notícia revelando que Teia ya está publicado y funcionando.
+            <br/>-Dos accesos directos a Teia.
+            <br/>-Y como no puede faltar, más textos conspiranóicos ocultos jajaja.</p>
+          </article>
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
