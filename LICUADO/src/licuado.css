@@ -208,6 +208,8 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,.lq-wrap::-webkit-scrollbar{disp
 .lq-btn-scriptorium.lq-btn-kronos:hover{border-color:rgba(94,222,255,.95);box-shadow:0 0 30px rgba(94,222,255,.28)}
 .lq-btn-scriptorium.lq-btn-kronos .lq-kronos-hand{transform-origin:12px 12px;animation:lq-kronos-tick 6s steps(12,end) infinite}
 @keyframes lq-kronos-tick{to{transform:rotate(360deg)}}
+.lq-btn-scriptorium.lq-btn-teia{color:rgba(255,230,200,.95)!important;border-color:rgba(255,180,120,.5);background:radial-gradient(circle at 28% 20%,rgba(255,255,255,.14),transparent 28%),linear-gradient(135deg,rgba(255,180,120,.22),rgba(60,30,10,.34) 55%,rgba(255,180,120,.1))}
+.lq-btn-scriptorium.lq-btn-teia:hover{border-color:rgba(255,180,120,.95);box-shadow:0 0 30px rgba(255,180,120,.28)}
 @media(prefers-reduced-motion:reduce){.lq-btn-scriptorium:before,.lq-btn-scriptorium.lq-btn-signal .lq-btn-icon,.lq-btn-scriptorium.lq-btn-kronos .lq-kronos-hand{animation:none}}
 .lq-footer-bottom{max-width:1000px;margin:0 auto;padding-top:1.8rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
 .lq-footer-copy,.lq-footer-made{font-size:.8rem;color:rgba(245,245,240,.15)}

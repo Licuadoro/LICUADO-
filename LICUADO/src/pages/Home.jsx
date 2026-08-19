@@ -135,6 +135,7 @@ const HTML = `
           <li><a href="#" class="lq-btn-scriptorium lq-btn-manuscript" data-lq-screen="gallery"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-4 0-9 2-12 7-2 3-3 6-3 9 3 0 6-1 9-3 5-3 7-8 7-12 0-.4-.4-1-1-1Z"/><path d="M9 15 4 20"/><path d="M13 8.5c-2 .3-4 1.6-5.3 3.6"/></svg>LICUADO Scriptorium</a></li>
           <li><a href="#" class="lq-btn-scriptorium lq-btn-news" data-lq-screen="news"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>Noticias</a></li>
           <li><a class="lq-btn-scriptorium lq-btn-kronos" href="https://kronostl.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><g class="lq-kronos-hand"><path d="M12 12 12 7"/><path d="M12 12 15.3 13.6"/></g></svg>Kronos</a></li>
+          <li><a class="lq-btn-scriptorium lq-btn-teia" href="https://teia-licuado.netlify.app/" target="_blank" rel="noopener"><svg class="lq-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>Teia</a></li>
         </ul>
       </div>
     </div>
@@ -310,6 +311,14 @@ const HTML = `
         <div class="lq-news-cards">
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Religio dominans</h3>
+            <p class="lq-news-excerpt">¡En esta actualización añadí varias cosas! Tales como: 
+            <br/>-Una notícia revelando que Teia ya está publicado y funcionando.
+            <br/>-Dos accesos directos a Teia.
+            <br/>-Y como no puede faltar, más textos conspiranóicos ocultos jajaja.</p>
+          </article>
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
             <p class="lq-news-excerpt">En esta actualización añadí una nueva notícia de Kronos y más textos conspiranóicos sin ningún tipo de fundamento (Lo digo así por mi propia seguridad)</p>
           </article>
@@ -323,6 +332,16 @@ const HTML = `
             <h3 class="lq-news-title">Actualización LICUADO 1.00: Deceptio?</h3>
             <p class="lq-news-excerpt">En esta actualización hice varios cambios, como añadir el nuevo apartado de notícias, añadir más frases filosóficas ocultas, añadir más líneas distintas de código que sale en el fondo, y eliminar ese orbe verde que salía en la tarjeta de Lúmen. Me gustaría decir que no tengo claro cuantas versiones y actualizaciones hice de la página hasta ahora, por lo que le pondré a esta 1.00, pero no es la primera. Sin embargo, a partir de ahora, todas las actualizaciones quedarán registradas aquí.</p>
             <p class="lq-news-excerpt" style="font-style:italic;opacity:0.7;margin-top:0.75rem;">También hice una pequeña corrección de color, poniendo el pie de página de LICUADO Scriptorium de color dorado, y, añadí una tarjeta en el inicio, con la notícia más reciente, de momento esta, pero puede que cuando tú la leas ya no sea la más reciente.</p>
+          </article>
+        </div>
+      </div>
+      <div class="lq-news-group">
+        <div class="lq-news-group-head"><h3 class="lq-news-group-title">Noticias Generales</h3></div>
+        <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">18 Ago 2026</div>
+            <h3 class="lq-news-title">Teia</h3>
+            <p class="lq-news-excerpt">¡Ya publicada y funcionando! Ya publiqué Teia, una herramienta donde podrás subir los archivos de tu proyecto y ver una vista previa. En mi caso, es bastante útil para no tener que publicar cada vez que hago cambios en mis webs sin saber si va a ser la versión definitiva. Y, sobra decir que es totalmente gratis, al igual que Kronos, y mis próximas herramientas.</p>
           </article>
         </div>
       </div>
@@ -341,6 +360,14 @@ const HTML = `
       <div class="lq-news-group">
         <div class="lq-news-group-head"><span class="lq-news-group-label">Historial</span><h3 class="lq-news-group-title">Actualizaciónes de LICUADO</h3></div>
         <div class="lq-news-cards">
+          <article class="lq-news-card">
+            <div class="lq-news-date">11 Ago 2026</div>
+            <h3 class="lq-news-title">Religio dominans</h3>
+            <p class="lq-news-excerpt">¡En esta actualización añadí varias cosas! Tales como: 
+            <br/>-Una notícia revelando que Teia ya está publicado y funcionando.
+            <br/>-Dos accesos directos a Teia.
+            <br/>-Y como no puede faltar, más textos conspiranóicos ocultos jajaja.</p>
+          </article>
           <article class="lq-news-card">
             <div class="lq-news-date">11 Ago 2026</div>
             <h3 class="lq-news-title">Actualización LICUADO 1.01: Magnetrón</h3>
@@ -364,7 +391,7 @@ const HTML = `
     <div class="lq-footer-gloss" aria-hidden="true"></div>
     <div class="lq-footer-inner">
       <div class="lq-footer-brand">
-        <p class="lq-footer-tagline">Las últimas noticias del proyecto, servidas en rojo.</p>
+        <p class="lq-footer-tagline">Estas notícias si son reales y sin alteración, y como soy yo el mismo que hace las notícias y los hechos, casi te lo puedo asegurar.</p>
       </div>
       <div>
         <p class="lq-footer-nav-title">Navegar</p>
@@ -551,6 +578,51 @@ const HTML = `
             <p>No es conspiración, se llama física básica.</p>
             <p>Y si, podrías atrapar un alma en un microondas.</p>
             <p>¿A qué sabe un alma cocida en microondas?</p>
+          </div>
+          <div class="lq-dios-page lq-dios-text">
+            <p>Sé que puede que haya fanáticos religiosos leyendo esto, así que lo redactaré de forma objetiva.</p>
+            <p>Bueno, pues me parece curioso como tanta gente cree en lo mismo.</p>
+            <p>Muchísima gente comparte la misma religión, un buen porcentaje de la humanidad.</p>
+            <p>Y esas personas probablemente ignoran el hecho de que las religiones fueron creadas como forma de control masivo de masas de gente.</p>
+            <p>Probablemente ignoran el hecho de que todos los textos religiosos fueron escritos por una persona que probablemente estaba aburrida un sábado por la tarde.</p>
+            <p>¿No te has preguntado de qué sirven las donaciones monetarias al dios de cada religión?</p>
+            <p>Porque sea lo que sea, sinceramente no creo que le interese el dinero.</p>
+            <p>Esas donaciones se las suelen gastar las personas que las reciben de primera mano, en sus caprichos y a veces en cosas que se supone que tiene prohibido por su cargo religioso.</p>
+            <p>Y la gente las entrega de buena fé, quizá pensando que su dios se va a poder dar un gusto y comer en un sitio bonito.</p>
+            <p>Bueno, no digo que siempre se roben las donaciones, pero... ¿Realmente a quién se las entregan?</p>
+            <p>¿Se supone que se las dan a la deidad personalmente?</p>
+            <p>Bueno, es diferente de cuando son para gente necesitada, ya que en ese caso si es entendible el medio en el que entregan dichas donaciones.</p>
+            <p>Aunque muchas veces en ese caso también las roban.</p>
+            <p>Personalmente, no creo en ninguna religión de la que la gente hable. Suelo aceptar más la teoría científica, pero los mismos científicos dijeron que hay muchas cosas que no saben.</p>
+            <p>Y es obvio, es evidente que no saben casi nada. Se podría decir que poseen el...</p>
+            <p>0.000000000000000000000000000000000000000000000000000000 [muchísimos más ceros, tal vez infinitos] 00000000000000000000000000000 00000000000000000000000000000000000001%</p>
+            <p>De toda la información que se puede tener, si es que hay un límite.</p>
+            <p>Y cómo mencioné antes, suelo aceptar la teoría científica.</p>
+            <p>Peeeeroo, siempre he creído que hay algún ente divino detrás de todo.</p>
+            <p>Es por eso que, aburrido un sábado por la tarde, inventé una religión propia, de la que ya había hablado alguna vez.</p>
+            <p>Pero resumiendo, que al haber dimensiones infinitas, todo ser pensante es una deidad y crea una nueva dimensión cada vez que imagina algo distinto a su realidad.</p>
+            <p>Cosa que hacemos todo el tiempo.</p>
+            <p>Así que, según eso, puede que nos haya creado alguien ideando algo, aburrido un sábado por la tarde.</p>
+            <p>Tal vez está religión que inventé aburrido un sábado por la tarde sea la próxima religión en la que crea la mayoría.</p>
+            <p>Tal vez el próximo sábado escriba algunos textos religiosos de mi propia invención.</p>
+            <p>En el caso de la mía no es así, al menos mientras sea mía y yo siga con vida, pero muchas veces las religiones son algo macabro.</p>
+            <p>Y es que no solo manipulan a toda la gente que les cree con toda su fé y a veces dedican su vida a eso con las donaciones.</p>
+            <p>¿Un sacrificio? Si, pero quién morirá será una persona que decida la iglesia, una persona que no nos conviene que siga viviendo porque está cerca de demostrar algo.</p>
+            <p>Demostrar que cómo humanos podemos hacer mucho más de lo que creemos, o demostrar que hemos sido engañados toda la vida por instituciones varias.</p>
+            <p>¿O algo más?</p>
+            <p>Ahora esos sacrificios no son algo de lo que se pueda enterar la gente públicamente.</p>
+            <p>Pero en la edad media sacrificaban a las brujas, si verdaderamente hacían magia, o si sabían un poco de herbología o alquimia.</p>
+            <p>Yo creo que eso no ha cambiado mucho hoy en día, y siguen ejecutando a quienes se acercan a ciertas verdades, o símplemente a quienes les conviene.</p>
+            <p>Y hay muchas más formas en las que las religiones manipulan a sus fieles creyentes.</p>
+            <p>Pero no las voy a decir todas porque esto ya se está haciendo bastante largo.</p>
+            <p>Me sorprende haber podido comunicar todo esto objetivamente, y espero haberlo hecho así.</p>
+            <p>Si algún fanático religioso o algo así se ofendió, sepa que no tenía ninguna intención de hacerlo, la verdad, nunca corrijo mis textos, y si me persiguen por hablar mucho, voy a decir que solo lo escribo para perfeccionar mi redacción o porque estoy aburrido, y realmente no estaré mintiendo.</p>
+            <p>Me encanta como la gente le da tantas formas distintas al creador, como le dedican tantos monumentos y santuarios tan increíbles.</p>
+            <p>De hecho, creo que de las cosas que más me gustan de la religión son su arquitectura.</p>
+            <p>Precisamente un arte...</p>
+            <p>...Es curioso.</p>
+            <p>No.</p>
+            <p>Al menos para mí, es totalmente normal.</p>
           </div>
         </div>
       </div>
